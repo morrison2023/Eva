@@ -1,0 +1,363 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Upright&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+}
+header {
+  position: relative;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 46px 0;
+  font-family: "Open Sans";
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}
+.nav_link1 {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+.nav_link2 {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+.vertLine {
+  border-left: 1px solid #ffffff;
+  padding-left: 15px;
+}
+.welcome {
+  position: relative;
+  padding-bottom: 150px;
+}
+.dom {
+  background: url(./img/wave\ element\ 2.png);
+}
+.welcome_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 100px;
+}
+.welcome_text {
+  font-family: "Cormorant Upright", serif;
+}
+.welclome_bvrtitle {
+  font-size: 23px;
+}
+.welcome_title {
+  color: #dcca87;
+  font-size: 90px;
+  font-weight: 600;
+  padding: 8px 0 0 0;
+}
+.welcome_subtitle {
+  color: #aaaaaa;
+  font-size: 16px;
+  line-height: 28px;
+  font-family: "Open Sans";
+  padding: 30px 0 40px 0;
+}
+.egg {
+  height: 600px;
+}
+.welcome_btn {
+  background-color: #dcca87;
+  font-family: "Cormorant Upright", serif;
+  font-size: 16px;
+  padding: 10px 32px 10px 32px;
+  cursor: pointer;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  padding: 70px 0 0 0;
+}
+.inf {
+  position: relative;
+  background: url(./img/BG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 0 120px 0;
+}
+
+.inf_inner {
+  display: flex;
+  align-items: center;
+  column-gap: 75px;
+  padding-top: 120px;
+}
+.inf_title {
+  color: #dcca87;
+  font-size: 64px;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 600;
+  padding: 0 0px 8px 0;
+}
+.inf_subtitle {
+  color: #aaaaaa;
+  font-size: 16px;
+  padding: 30px 0px 40px 0;
+  line-height: 28px;
+  font-family: "Open Sans";
+}
+.right {
+  text-align: right;
+}
+.chef {
+  background: url(./img/BGG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 100px;
+}
+.chan {
+  width: 650px;
+}
+.chef_inf {
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.chef_bvrtitle {
+  font-size: 23px;
+  font-family: "Cormorant Upright", serif;
+}
+.chef_title {
+  font-size: 54px;
+  font-weight: 600;
+  color: #dcca87;
+  font-family: "Cormorant Upright", serif;
+  padding: 10px 0 76px 0;
+}
+.kovichki {
+  width: 30px;
+}
+.chef_aftrtitle {
+  font-size: 16px;
+  color: #aaaaaa;
+  line-height: 28px;
+}
+.chef_text {
+  padding-top: 65px;
+}
+.chef_name {
+  color: #dcca87;
+  font-size: 32px;
+  font-family: "Cormorant Upright", serif;
+  padding: 34px 0 10px 0;
+}
+.name_img {
+  width: 164px;
+  padding-top: 64px;
+}
+.video {
+  background: url(./img/Mask\ Group.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  opacity: 0.5;
+}
+.play_btn {
+  width: 120px;
+  height: 120px;
+  margin: 257px 568px 249px 568px;
+  cursor: pointer;
+}
+.blogs {
+  margin-top: 55px;
+}
+.vector {
+  padding: 10px 0 10px 0;
+}
+.bvr_title {
+  color: white;
+  font-size: 23px;
+  font-family: "Cormorant Upright", serif;
+}
+.blogs_title {
+  font-size: 64px;
+  color: #dcca87;
+  font-family: "Cormorant Upright", serif;
+}
+.grill {
+  background-image: url(./img/grill.png);
+  width: 330px;
+  height: 334px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cocktails {
+  background-image: url(./img/cocktails.png);
+  width: 330px;
+  height: 334px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cooking {
+  background-image: url(./img/cooking.png);
+  width: 330px;
+  height: 334px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dish_cards {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-around;
+}
+.dish_card {
+  width: 330px;
+}
+.dish_subtitle {
+  font-size: 16px;
+  color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+  font-family: "Open Sans";
+}
+.dish_title {
+  color: #dcca87;
+  font-size: 32px;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 400;
+  margin-top: 32px;
+}
+.dish_inf {
+  color: #aaaaaa;
+  font-size: 15px;
+  font-family: "Open Sans";
+  line-height: 28px;
+  padding: 32px 0 32px 0;
+}
+.dish_more {
+  color: #dcca87;
+  font-family: "Cormorant Upright", serif;
+  font-size: 16px;
+}
+.blogs_text {
+  padding-left: 30px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  padding: 72px 0 130px 0;
+}
+.gallery {
+  background: url(./img/BG.jpg);
+  z-index: 1;
+  padding-bottom: 100px;
+}
+.gallery {
+  padding-top: 120px;
+}
+.gallery_inner {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 54px;
+}
+.bvr_gallery {
+  font-size: 23px;
+  font-family: "Cormorant Upright", serif;
+}
+.gallery_title {
+  font-size: 64px;
+  color: #dcca87;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 600;
+}
+.gallery_subtitle {
+  font-size: 16px;
+  color: #aaaaaa;
+  font-family: "Open Sans";
+  line-height: 28px;
+  padding: 14px 0 2px 0;
+}
+.lozhka {
+  padding: 8px 0 8px 0;
+}
+.galimg {
+  width: 254px;
+}
+.link {
+  cursor: pointer;
+}
+.gallery_img {
+  display: flex;
+  flex-direction: row;
+  column-gap: 16px;
+}
+.gallery_text {
+  padding-top: 20px;
+}
+.glavn {
+  background: url(./img/wave\ element.png);
+  z-index: 2;
+}
+.footer {
+  background-color: black;
+  background-image: url(./img/wave\ element.png);
+  padding: 130px;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  text-align: center;
+}
+.footer_title {
+  font-size: 32px;
+  color: #f5efdb;
+  font-family: "Cormorant Upright", serif;
+}
+.footer_text {
+  font-size: 16px;
+  color: #aaaaaa;
+  line-height: 28px;
+  font-family: "Open Sans";
+}
+.s {
+  padding: 24px 0 8px 0;
+}
+.glavn {
+  font-size: 64px;
+  font-family: "Cormorant Upright", serif;
+  color: #dcca87;
+}
+.rast {
+  padding: 32px 0 16px 0;
+}
+.footer_img {
+  padding-bottom: 18px;
+}
+.textend {
+  display: flex;
+  justify-content: center;
+}
+.end {
+  font-size: 16px;
+  color: #aaaaaa;
+  font-family: "Open Sans";
+  padding-top: 80px;
+}
